@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_home" type="id" />
+    <item name="btn_profile" type="id" />
+    <item name="btn_settings" type="id" />
+    <item name="btn_setting" type="id" />
+    <item name="tv_home" type="id" />
+    <item name="tvnama" type="id" />
+    <item name="tvnim" type="id" />
+    <item name="tvemail" type="id" />
+    <item name="tvhp" type="id" />
+    <item name="tvjk" type="id" />
+    <item name="tvprodi" type="id" />
+    <item name="tvorg" type="id" />
+    <item name="tvstatus" type="id" />
+    <item name="container" type="id" />
+</resources>

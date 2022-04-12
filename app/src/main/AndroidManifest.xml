@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.fintech1491">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fintech1491">
+        <activity
+           android:name="com.mobile.fintech1491.MainActivity"
+            android:exported="false" />
+        <activity
+           android:name="com.mobile.fintech1491.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+         android:name="com.mobile.fintech1491.home.HomeActivity"
+            android:exported="false" />
+        <activity
+        android:name="com.mobile.fintech1491.setting.SettingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.actio
+                    n.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
